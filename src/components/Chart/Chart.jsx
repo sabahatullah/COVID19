@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import {Card, CardContent, Typography, Grid} from '@material-ui/core';
 import styles from './Chart.module.css';
 import { fetchDailyData } from '../../api';
 import {Line, Bar} from 'react-chartjs-2';
